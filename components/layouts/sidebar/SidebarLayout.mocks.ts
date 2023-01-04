@@ -1,9 +1,9 @@
-import { IPrimaryLayout } from './SidebarLayout';
+import { ISidebarLayout } from './SidebarLayout';
 
-const base: IPrimaryLayout = {
+const base: ISidebarLayout = {
   children: '{{component}}',
 };
 
-export const mockPrimaryLayoutProps = {
+export const mockSidebarLayoutProps = {
   base,
 };
